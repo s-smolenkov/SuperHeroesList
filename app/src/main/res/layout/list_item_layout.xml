@@ -51,10 +51,12 @@
             android:text="@string/name_richard_milhouse_jones"
             android:textSize="12sp"
             android:textStyle="bold"
+            android:clickable="true"
             app:layout_constraintEnd_toStartOf="@id/guideline"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/photo"
-            tools:ignore="TextViewEdits" />
+            tools:ignore="TextViewEdits"
+            android:focusable="true" />
 
         <TextView
             android:id="@+id/placeOfBirth"
